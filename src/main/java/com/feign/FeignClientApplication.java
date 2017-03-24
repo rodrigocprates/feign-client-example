@@ -18,7 +18,7 @@ public class FeignClientApplication {
 
 	public static void main(String[] args) {
 
-		List<Contributor> contributors = listGithubContributors("rodrigocprates", "tronno");
+		List<Contributor> contributors = listGithubContributors("rodrigocprates", "nodeschool");
 		
 		contributors.forEach(System.out::println); // allowed only running on java 8
 		
